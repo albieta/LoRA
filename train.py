@@ -35,7 +35,7 @@ model.add_adapter(lora_config)
 
 train_dataset = load_dataset("albieta1/odoo", split="train[:1%]")
 
-output_dir = "albieta1/odoo-nice-first-vibes"
+output_dir = "albieta1/odoo-nice-first-vibes-test"
 per_device_train_batch_size = 4
 gradient_accumulation_steps = 4
 optim = "paged_adamw_32bit"
